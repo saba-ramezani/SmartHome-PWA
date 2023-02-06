@@ -1,0 +1,56 @@
+
+.nav-home {
+    appearance: none;
+    width: 8%;
+    padding-left: 10px;
+    color: white;
+    border: black;
+}
+
+
+.custom {
+    background-color: rgb(255, 49, 49);
+    color: white;
+    padding: 5px;
+    border-radius: 100px;
+}
+
+.home {
+    color: black;
+}
+
+
+.first-row {
+    background-color: aquamarine;
+    border: 0.5px solid black;
+    height: calc(100vh/14);
+}
+
+.second-row {
+    background-color: aquamarine;
+    border: 0.5px solid black;
+    height: calc(100vh/14*2);
+}
+
+
+
+.third-row {
+    background-color: aquamarine;
+    border: 0.5px solid black;
+    height: calc(100vh/14);
+}
+
+
+.fourth-row {
+    background-color: aquamarine;
+    border: 0.5px solid black;
+    height: calc(100vh/14*9);
+}
+
+
+
+.fifth-row {
+    background-color: aquamarine;
+    border: 0.5px solid black;
+    height: calc(100%/14);
+}
