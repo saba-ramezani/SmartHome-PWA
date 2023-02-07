@@ -1,3 +1,44 @@
+body { 
+    padding-top: 40px; 
+    padding-bottom: 40px;
+}
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial;
+  }
+  
+  /* Style tab links */
+  .tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+  }
+  
+  .tablink:hover {
+    background-color: #777;
+  }
+  
+  /* Style the tab content (and add height:100% for full page content) */
+  .tabcontent {
+    color: white;
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+  }
+  
+  #Home {background-color: red;}
+  #News {background-color: green;}
+  #Contact {background-color: blue;}
+  #About {background-color: orange;}
 
 .nav-home {
     appearance: none;
@@ -19,17 +60,15 @@
     color: black;
 }
 
-
-.first-row {
-    background-color: aquamarine;
+.weather {
+    background-image: url("images/weather.webp");
     border: 0.5px solid black;
-    height: calc(100vh/14);
-}
-
-.second-row {
-    background-color: aquamarine;
-    border: 0.5px solid black;
-    height: calc(100vh/14*2);
+    height: calc(100vh/12*2);
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 2%;
 }
 
 
@@ -37,20 +76,13 @@
 .third-row {
     background-color: aquamarine;
     border: 0.5px solid black;
-    height: calc(100vh/14);
+    height: calc(100vh/12);
 }
 
 
 .fourth-row {
     background-color: aquamarine;
     border: 0.5px solid black;
-    height: calc(100vh/14*9);
+    height: calc(100vh/12*9);
 }
 
-
-
-.fifth-row {
-    background-color: aquamarine;
-    border: 0.5px solid black;
-    height: calc(100%/14);
-}
