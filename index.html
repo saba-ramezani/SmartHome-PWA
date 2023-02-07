@@ -16,7 +16,7 @@
                     <option>Villa</option>
                     <option>Company</option>
                 </select>
-            <div class="col offset-10">  
+            <div class="col">  
                 <a href="#" role="button" class="custom"><i class="fa-solid fa-arrows-rotate"></i></a>
             </div>
             <div class="col">  
@@ -29,29 +29,41 @@
         Here comes the info about the weather
     </div>
       
-      <button class="tablink" onclick="openPage('Home', this, 'red')">All Devices</button>
-      <button class="tablink" onclick="openPage('News', this, 'green')" id="defaultOpen">Hall</button>
-      <button class="tablink" onclick="openPage('Contact', this, 'blue')">Kids Room</button>
-      <button class="tablink" onclick="openPage('About', this, 'orange')">Living Room</button>
+      <button class="tablink" onclick="openPage('Home', this, 'lightgray')" id="defaultOpen">All Devices</button>
+      <button class="tablink" onclick="openPage('News', this, 'lightgray')">Hall</button>
+      <button class="tablink" onclick="openPage('Contact', this, 'lightgray')">Kids Room</button>
+      <button class="tablink" onclick="openPage('About', this, 'lightgray')">Living Room</button>
       
       <div id="Home" class="tabcontent">
-        <h3>Home</h3>
-        <p>Home is where the heart is..</p>
+        <div class="justify-content-center">
+          <img src="images/addfile.jpg" alt="" class="addFileImg img-responsive">
+          <div class="deviceNotFound">Device not available, please add</div>
+          <button class="addDevice btn btn-danger">Add Device</button>
+        </div>
       </div>
       
       <div id="News" class="tabcontent">
-        <h3>News</h3>
-        <p>Some news this fine day!</p> 
+        <div class="justify-content-center">
+          <img src="images/addfile.jpg" alt="" class="addFileImg img-responsive">
+          <div class="deviceNotFound">Device not available, please add</div>
+          <button class="addDevice btn btn-danger">Add Device</button>
+        </div>
       </div>
       
       <div id="Contact" class="tabcontent">
-        <h3>Contact</h3>
-        <p>Get in touch, or swing by for a cup of coffee.</p>
+        <div class="justify-content-center">
+          <img src="images/addfile.jpg" alt="" class="addFileImg img-responsive">
+          <div class="deviceNotFound">Device not available, please add</div>
+          <button class="addDevice btn btn-danger">Add Device</button>
+        </div>
       </div>
       
       <div id="About" class="tabcontent">
-        <h3>About</h3>
-        <p>Who we are and what we do.</p>
+        <div class="justify-content-center">
+          <img src="images/addfile.jpg" alt="" class="addFileImg img-responsive">
+          <div class="deviceNotFound">Device not available, please add</div>
+          <button class="addDevice btn btn-danger">Add Device</button>
+        </div>
       </div>
       
       <script>
@@ -72,10 +84,6 @@
       // Get the element with id="defaultOpen" and click on it
       document.getElementById("defaultOpen").click();
       </script>
-
-    <div class="fourth-row">
-        fourth
-    </div>
     
     
     <nav class="navbar navbar-expand-sm bg-secondary text-white fixed-bottom">

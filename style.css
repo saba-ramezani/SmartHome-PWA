@@ -13,7 +13,7 @@ body, html {
   /* Style tab links */
   .tablink {
     background-color: #555;
-    color: white;
+    color: rgb(0, 0, 0);
     float: left;
     border: none;
     outline: none;
@@ -22,28 +22,27 @@ body, html {
     font-size: 17px;
     width: 25%;
   }
-  
-  .tablink:hover {
-    background-color: #777;
-  }
+
   
   /* Style the tab content (and add height:100% for full page content) */
   .tabcontent {
     color: white;
     display: none;
-    padding: 100px 20px;
+    padding: 200px 20px;
     height: 100%;
+    font-size: 1;
   }
   
-  #Home {background-color: red;}
-  #News {background-color: green;}
-  #Contact {background-color: blue;}
-  #About {background-color: orange;}
+  #Home {background-color: lightgray;}
+  #News {background-color: lightgray;}
+  #Contact {background-color: lightgray;}
+  #About {background-color: lightgray;}
 
 .nav-home {
     appearance: none;
-    width: 8%;
+    width: fit-content;
     padding-left: 10px;
+    padding-right: 10px;
     color: white;
     border: black;
 }
@@ -86,3 +85,27 @@ body, html {
     height: calc(100vh/12*9);
 }
 
+
+
+.addFileImg {
+  width: 16%;
+  height: 20%;
+  margin-left: 42%;
+  margin-bottom: 5%;
+}
+
+.deviceNotFound {
+  width: 100%;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+
+.addDevice {
+  width: fit-content;
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+}
