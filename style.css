@@ -84,13 +84,14 @@ body, html {
 }
 
 .weather {
-    background-image: url("images/weather.webp");
+    background-image: url("images/smarthome.jpg");
+    opacity: 0.8;
     border: 0.5px solid black;
     height: calc(100vh/12*2);
     color: white;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center center;
     padding: 2%;
 }
 
