@@ -10,60 +10,84 @@
 </head>
   <body>
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
-        <div class="container-fluid">
-                <select class="selectpicker nav-home bg-dark">
-                    <option>Home</option>
-                    <option>Villa</option>
-                    <option>Company</option>
-                </select>
-            <div class="col">  
-                <a href="#" role="button" class="custom"><i class="fa-solid fa-arrows-rotate"></i></a>
-            </div>
-            <div class="col">  
-                <a href="#" role="button" class="custom"><i class="fa-solid fa-plus"></i></a>
-            </div>
+        <div class="container-fluid justify-content-center">
+          <div class="col-6 justify-content-start">
+            <select class="selectpicker nav-home bg-dark col-1">
+              <option>Home</option>
+              <option>Villa</option>
+              <option>Company</option>
+            </select>
+          </div>
+          <div class="col-6 justify-content-end d-flex">
+            <div class="col-1">  
+              <a href="#" role="button" class="custom1"><i class="fa-solid fa-arrows-rotate"></i></a>
+          </div>
+          <div class="col-1 offset-1">  
+              <a href="#" role="button" class="custom2"><i class="fa-solid fa-plus"></i></a>
+          </div>
+          </div>
         </div>
     </nav>
 
     <div class="weather">
         Here comes the info about the weather
     </div>
+
+
+    <div class="hhh d-flex">
+      <div class="scrollmenu col-10">
+        <a onclick="openPage('allDevices', this)" id="defaultOpen">All Devices</a>
+        <a onclick="openPage('hall', this)">Hall</a>
+        <a onclick="openPage('kidsRoom', this)">Kids Room</a>
+        <a onclick="openPage('livingRoom', this)">Living Room</a>
+        <a onclick="openPage('hall', this)">Hall</a>
+        <a onclick="openPage('kidsRoom', this)">Kids Room</a>
+        <a onclick="openPage('livingRoom', this)">Living Room</a>
+        <a onclick="openPage('hall', this)">Hall</a>
+        <a onclick="openPage('kidsRoom', this)">Kids Room</a>
+        <a onclick="openPage('livingRoom', this)">Living Room</a>
+        <a onclick="openPage('hall', this)">Hall</a>
+        <a onclick="openPage('kidsRoom', this)">Kids Room</a>
+
+      </div>
+      <div class="col-1">
+        <button class="but dropdown" type="button" data-toggle="dropdown">
+          <img src="images/threedots.png" class="threeDots" alt="">
+        </button>
+        <!--<ul class="dropdown-menu">
+          <li><a href="#">HTML</a></li>
+          <li><a href="#">CSS</a></li>
+          <li><a href="#">JavaScript</a></li>
+        </ul>-->
+      </div>
+    </div>
+    
+
+    
+
       
-      <button class="tablink" onclick="openPage('Home', this, 'lightgray')" id="defaultOpen">All Devices</button>
-      <button class="tablink" onclick="openPage('News', this, 'lightgray')">Hall</button>
-      <button class="tablink" onclick="openPage('Contact', this, 'lightgray')">Kids Room</button>
-      <button class="tablink" onclick="openPage('About', this, 'lightgray')">Living Room</button>
-      
-      <div id="Home" class="tabcontent">
-        <div class="justify-content-center">
-          <img src="images/addfile.jpg" alt="" class="addFileImg img-responsive">
-          <div class="deviceNotFound">Device not available, please add</div>
-          <button class="addDevice btn btn-danger">Add Device</button>
-        </div>
+      <div id="allDevices" class="tabcontent">
+        <img src="images/addfile.jpg" alt="" class="addFileImg img-responsive">
+        <div class="deviceNotFound">Device not available, please add</div>
+        <button class="addDevice btn btn-danger">Add Device</button>
       </div>
       
-      <div id="News" class="tabcontent">
-        <div class="justify-content-center">
-          <img src="images/addfile.jpg" alt="" class="addFileImg img-responsive">
-          <div class="deviceNotFound">Device not available, please add</div>
-          <button class="addDevice btn btn-danger">Add Device</button>
-        </div>
+      <div id="hall" class="tabcontent bg-dark">
+        <img src="images/addfile.jpg" alt="" class="addFileImg img-responsive">
+        <div class="deviceNotFound">Device not available, please add</div>
+        <button class="addDevice btn btn-danger">Add Device</button>
       </div>
       
-      <div id="Contact" class="tabcontent">
-        <div class="justify-content-center">
-          <img src="images/addfile.jpg" alt="" class="addFileImg img-responsive">
-          <div class="deviceNotFound">Device not available, please add</div>
-          <button class="addDevice btn btn-danger">Add Device</button>
-        </div>
+      <div id="kidsRoom" class="tabcontent">
+        <img src="images/addfile.jpg" alt="" class="addFileImg img-responsive">
+        <div class="deviceNotFound">Device not available, please add</div>
+        <button class="addDevice btn btn-danger">Add Device</button>
       </div>
       
-      <div id="About" class="tabcontent">
-        <div class="justify-content-center">
-          <img src="images/addfile.jpg" alt="" class="addFileImg img-responsive">
-          <div class="deviceNotFound">Device not available, please add</div>
-          <button class="addDevice btn btn-danger">Add Device</button>
-        </div>
+      <div id="livingRoom" class="tabcontent">
+        <img src="images/addfile.jpg" alt="" class="addFileImg img-responsive">
+        <div class="deviceNotFound">Device not available, please add</div>
+        <button class="addDevice btn btn-danger">Add Device</button>
       </div>
       
       <script>

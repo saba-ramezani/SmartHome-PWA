@@ -10,7 +10,6 @@ body, html {
     font-family: Arial;
   }
   
-  /* Style tab links */
   .tablink {
     background-color: #555;
     color: rgb(0, 0, 0);
@@ -24,19 +23,25 @@ body, html {
   }
 
   
-  /* Style the tab content (and add height:100% for full page content) */
-  .tabcontent {
-    color: white;
-    display: none;
-    padding: 200px 20px;
-    height: 100%;
-    font-size: 1;
+  #allDevices {
+    background-color: lightgray;
+    padding-top: 10%;
   }
-  
-  #Home {background-color: lightgray;}
-  #News {background-color: lightgray;}
-  #Contact {background-color: lightgray;}
-  #About {background-color: lightgray;}
+
+  #hall {
+    background-color: lightgray;
+    padding-top: 10%;
+  }
+
+  #kidsRoom {
+    background-color: lightgray;
+    padding-top: 10%;
+  }
+
+  #livingRoom {
+    background-color: lightgray;
+    padding-top: 10%;
+  }
 
 .nav-home {
     appearance: none;
@@ -48,12 +53,29 @@ body, html {
 }
 
 
-.custom {
+
+.custom1 {
     background-color: rgb(255, 49, 49);
     color: white;
     padding: 5px;
+    margin-right: 50px;
+    position: fixed;
+    left: 85%;
+    top: 0;
     border-radius: 100px;
 }
+
+.custom2 {
+  background-color: rgb(255, 49, 49);
+  color: white;
+  padding: 5px;
+  margin-right: 50px;
+  position: fixed;
+  left: 95%;
+  top: 0;
+  border-radius: 100px;
+}
+
 
 .home {
     color: black;
@@ -71,14 +93,6 @@ body, html {
 }
 
 
-
-.third-row {
-    background-color: aquamarine;
-    border: 0.5px solid black;
-    height: calc(100vh/12);
-}
-
-
 .fourth-row {
     background-color: aquamarine;
     border: 0.5px solid black;
@@ -88,17 +102,17 @@ body, html {
 
 
 .addFileImg {
-  width: 16%;
-  height: 20%;
+  width: 20%;
+  height: 35%;
   margin-left: 42%;
   margin-bottom: 5%;
 }
 
 .deviceNotFound {
-  width: 100%;
   color: rgb(0, 0, 0);
   text-align: center;
   margin-bottom: 5%;
+  font-size: 20px;
 }
 
 
@@ -108,4 +122,74 @@ body, html {
   position: absolute;
   left: 50%;
   transform: translatex(-50%);
+  font-size: 20px;
+}
+
+.default {
+  background-color: aqua;
+  height: 60%;
+  margin-top: 20%;
+  margin-bottom: 20%;
+}
+
+.tabcontent {
+  color: white;
+  height: 100%;
+  font-size: 1;
+}
+
+
+#footer ul {
+  padding: 0;
+}
+
+#footer ul li {
+  list-style: none;
+  float: left;
+  width: 33.33%;
+  text-align: center;
+  margin-top: -10px;
+}
+
+#footer ul li span {
+  display: block;
+  font-size: 10px;
+  margin-top: -5px;
+}
+
+.hhh {
+  background-color: #333;
+}
+
+
+div.scrollmenu {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+  color: white;
+  margin-right: 20px;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #777;
+}
+
+
+.threeDots {
+  height: 80%;
+  width: 20px;
+}
+
+.but {
+  position: relative;
+  top: 10px;
+  right: 10px;
 }
