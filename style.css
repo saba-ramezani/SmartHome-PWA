@@ -109,6 +109,7 @@ body, html {
   height: 35%;
   margin-left: 42%;
   margin-bottom: 5%;
+  background: rgba(0,0,0,0);
 }
 
 .deviceNotFound {
@@ -170,7 +171,6 @@ div.scrollmenu {
   overflow: auto;
   white-space: nowrap;
   color: white;
-  margin-right: 20px;
 }
 
 div.scrollmenu a {
@@ -189,10 +189,18 @@ div.scrollmenu a:hover {
 .threeDots {
   height: 80%;
   width: 20px;
+  background: rgba(0,0,0,0);
 }
 
 .but {
   position: relative;
   top: 10px;
   right: 10px;
+  width: fit-content;
+  height: fit-content;
 }
+
+
+
+
+
