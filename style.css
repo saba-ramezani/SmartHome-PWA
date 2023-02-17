@@ -183,6 +183,7 @@ div.scrollmenu a {
 
 div.scrollmenu a:hover {
   background-color: #777;
+  cursor: pointer;
 }
 
 
@@ -200,6 +201,39 @@ div.scrollmenu a:hover {
   height: fit-content;
 }
 
+.hi {
+  height: fit-content;
+  width: fit-content;
+  font-size: 100%;
+  color: black;
+  padding-top: 15%;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 15%;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.hey1 {
+  border-bottom: 1px solid black;
+  color: black;
+  padding: 2%;
+}
+
+.hey2 {
+  color: black;
+  padding: 2%;
+}
+
+.hey1:hover {
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.hey2:hover {
+  font-weight: bolder;
+  cursor: pointer;
+}
 
 
 
