@@ -63,6 +63,11 @@ body, html {
     font-size: 20px;
   }
 
+  .threeDots {
+    height: 40px;
+    width: 40px;
+  }
+
   #kidsRoom {
     background-color: rgb(255, 255, 255);
     padding-top: 100px;;
