@@ -1,6 +1,8 @@
 body { 
     padding-top: 40px; 
     padding-bottom: 40px;
+    min-width: 300px;
+    min-height: 500px;
 }
 
 
@@ -30,17 +32,45 @@ body, html {
 
   #hall {
     background-color: rgb(255, 255, 255);
-    padding-top: 5px;
+    padding-top: 100px;
+  }
+
+
+  .addFileImg {
+    background: rgba(0,0,0,0);
+    width: 100px;
+    margin-left: calc((100% - 100px)/2);
+    margin-bottom: 30px;
+  }
+
+
+  .deviceNotFound {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
+  
+  
+  .addDevice {
+    background-color:  rgb(255, 53, 27);
+    border-radius: 20px;
+    width: fit-content;
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+    font-size: 20px;
   }
 
   #kidsRoom {
     background-color: rgb(255, 255, 255);
-    padding-top: 5px;;
+    padding-top: 100px;;
   }
 
   #livingRoom {
     background-color: rgb(255, 255, 255);
-    padding-top: 5px;
+    padding-top: 100px;
   }
 
 .nav-home {
@@ -96,30 +126,9 @@ body, html {
 }
 
 
-.addFileImg {
-  width: 20%;
-  height: 35%;
-  margin-left: 42%;
-  margin-bottom: 5%;
-  background: rgba(0,0,0,0);
-}
-
-.deviceNotFound {
-  color: rgb(0, 0, 0);
-  text-align: center;
-  margin-bottom: 5%;
-  font-size: 20px;
-}
 
 
-.addDevice {
-  width: fit-content;
-  margin: 0;
-  position: absolute;
-  left: 50%;
-  transform: translatex(-50%);
-  font-size: 20px;
-}
+
 
 .tabcontent {
   color: white;
