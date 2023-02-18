@@ -24,23 +24,23 @@ body, html {
 
   
   #allDevices {
-    background-color: lightgray;
-    padding-top: 10%;
+    background-color: rgb(255, 255, 255);
+    padding-top: 5px;
   }
 
   #hall {
-    background-color: lightgray;
-    padding-top: 10%;
+    background-color: rgb(255, 255, 255);
+    padding-top: 5px;
   }
 
   #kidsRoom {
-    background-color: lightgray;
-    padding-top: 10%;
+    background-color: rgb(255, 255, 255);
+    padding-top: 5px;;
   }
 
   #livingRoom {
-    background-color: lightgray;
-    padding-top: 10%;
+    background-color: rgb(255, 255, 255);
+    padding-top: 5px;
   }
 
 .nav-home {
@@ -54,7 +54,7 @@ body, html {
 
 
 
-.custom1 {
+.refresh {
     background-color: rgb(255, 53, 27);
     color: white;
     position: fixed;
@@ -66,7 +66,7 @@ body, html {
     padding-left: 5px;
 }
 
-.custom2 {
+.plus {
   background-color: rgb(255, 53, 27);
   color: white;
   position: fixed;
@@ -96,14 +96,6 @@ body, html {
 }
 
 
-.fourth-row {
-    background-color: aquamarine;
-    border: 0.5px solid black;
-    height: calc(100vh/12*9);
-}
-
-
-
 .addFileImg {
   width: 20%;
   height: 35%;
@@ -129,17 +121,12 @@ body, html {
   font-size: 20px;
 }
 
-.default {
-  background-color: aqua;
-  height: 60%;
-  margin-top: 20%;
-  margin-bottom: 20%;
-}
-
 .tabcontent {
   color: white;
   height: 100%;
   font-size: 1;
+  margin-bottom: 50%;
+  padding-bottom: 50%;
 }
 
 
@@ -237,4 +224,11 @@ div.scrollmenu a:hover {
 
 
 
+.yes:hover {
+  cursor: pointer;
+  font-weight: bolder;
+}
 
+.saba {
+  visibility: visible;
+}
