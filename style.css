@@ -90,27 +90,21 @@ body, html {
 
 
 .refresh {
-    background-color: rgb(255, 53, 27);
-    color: white;
     position: fixed;
     right: 50px;
     top: 7px;
-    border-radius: 50%;
     height: 25px;
     width: 25px;
-    padding-left: 5px;
+    border-radius: 20px;
 }
 
 .plus {
-  background-color: rgb(255, 53, 27);
-  color: white;
   position: fixed;
   right: 10px;
   top: 7px;
-  border-radius: 50%;
+  border-radius: 20px;
   height: 25px;
   width: 25px;
-  padding-left: 5px;
 }
 
 
