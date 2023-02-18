@@ -41,6 +41,7 @@ body, html {
     width: 100px;
     margin-left: calc((100% - 100px)/2);
     margin-bottom: 30px;
+    opacity: 0.5;
   }
 
 
@@ -48,12 +49,13 @@ body, html {
     color: rgb(0, 0, 0);
     text-align: center;
     margin-bottom: 30px;
-    font-size: 20px;
+    font-size: 15px;
+    opacity: 0.5;
   }
   
   
   .addDevice {
-    background-color:  rgb(255, 53, 27);
+    background-color:  rgb(255, 62, 37);
     border-radius: 20px;
     width: fit-content;
     margin: 0;
@@ -113,7 +115,7 @@ body, html {
 }
 
 .weather {
-    background-image: url("images/smarthome.jpg");
+    background-image: url("images/gradiant.png");
     opacity: 0.8;
     border: 0.5px solid black;
     height: calc(100vh/12*2);
@@ -125,8 +127,17 @@ body, html {
 }
 
 
+.welcome {
+  width: 80%;
+  margin-left: 10%;
+  font-size: 200%;
+  color: black;
+}
 
 
+.smarthome {
+  width: 50px;
+}
 
 
 .tabcontent {
@@ -239,4 +250,11 @@ div.scrollmenu a:hover {
 
 .saba {
   visibility: visible;
+  height: 70px;
+}
+
+.gg {
+  height: 60px;
+  width: 60px;
+  margin-left: calc((100% - 60px)/2);
 }
