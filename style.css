@@ -241,7 +241,9 @@ div.scrollmenu a:hover {
   cursor: pointer;
 }
 
-
+.no {
+  border-bottom: 1px white;
+}
 
 .yes:hover {
   cursor: pointer;
@@ -257,4 +259,9 @@ div.scrollmenu a:hover {
   height: 60px;
   width: 60px;
   margin-left: calc((100% - 60px)/2);
+}
+
+
+.gg:hover {
+  border: 1px solid rgb(255, 255, 255);
 }
