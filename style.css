@@ -121,9 +121,9 @@ body, html {
     height: calc(100vh/12*2);
     color: white;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
     background-position: center center;
-    padding: 20%;
+    padding: 10%;
 }
 
 
