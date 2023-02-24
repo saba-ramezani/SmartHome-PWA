@@ -90,32 +90,53 @@ body, html {
 }
 
 
-a:link { 
-  text-decoration: none;
-  color: black;
+.topnav {
+  height: 40px;
+}
+
+
+.gasstovetext {
+  position: absolute;
+  width: 80px;
+  height: fit-content;
+  white-space: nowrap;
+  top: -13px;
+  left: calc((100% - 60px)/2);
+}
+
+
+.kj {
+  position: relative;
+}
+
+
+
+.gas {
+  height: 120%;
+  background-color: rgb(24, 24, 24);
+}
+
+
+.gas-img {
+  width: 50%;
+  margin-left: 25%;
+  height: auto;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  background-color: rgb(24, 24, 24);
+}
+
+@media only screen and (max-width: 1000px) {
+  .gas-img {
+    width: 100%;
+    margin-left: 0%;
   }
-
-
-a:visited { 
-  text-decoration: none;
-  color: black;
- }
-
-
-a:hover { 
-  text-decoration: none;
-  color: black;
 }
 
 
-a:active { 
-  text-decoration: none;
-  color: black;
-}
-
-.refresh {
+.back {
     position: fixed;
-    right: 50px;
+    left: 10px;
     top: 7px;
     height: 25px;
     width: 25px;
@@ -275,12 +296,25 @@ div.scrollmenu a:hover {
 .saba {
   visibility: visible;
   height: 70px;
+  background-color: rgb(24, 24, 24);
 }
 
 .gg {
-  height: 60px;
-  width: 60px;
+  height: 50px;
+  width: 50px;
   margin-left: calc((100% - 60px)/2);
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+
+.zz {
+  height: 50px;
+  width: 50px;
+  margin-left: calc((100% - 60px)/2);
+  margin-top: 50px;
+  border-radius: 50%;
+  border: 2px solid white;
 }
 
 
