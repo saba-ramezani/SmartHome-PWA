@@ -116,23 +116,48 @@ body, html {
   background-color: rgb(24, 24, 24);
 }
 
-
-.gas-img {
+.stove-img {
+  display: grid;
+  grid-template-columns: 1fr;
   width: 50%;
   margin-left: 25%;
   height: auto;
-  margin-top: 100px;
-  margin-bottom: 30px;
   background-color: rgb(24, 24, 24);
 }
 
-@media only screen and (max-width: 1000px) {
-  .gas-img {
-    width: 100%;
-    margin-left: 0%;
-  }
+
+.gas-img1 {
+  margin-top: 100px;
+  grid-row-start: 1;
+  grid-column-start: 1;
+  width: 80%;
+  margin-left: 10%;
+  height: auto;
+  margin-bottom: 70px;
+  background-color: rgb(24, 24, 24);
+  z-index: 500;
 }
 
+
+.gas-img2 {
+  margin-top: 100px;
+  grid-row-start: 1;
+  grid-column-start: 1;
+  width: 80%;
+  margin-left: 10%;
+  height: auto;
+  margin-bottom: 70px;
+  background-color: rgb(24, 24, 24);
+  z-index: 0;
+}
+
+@media only screen and (max-width: 1000px) {
+  .stove-img {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
 
 .back {
     position: fixed;
@@ -309,10 +334,11 @@ div.scrollmenu a:hover {
 
 
 .zz {
-  height: 50px;
-  width: 50px;
+  height: 70px;
+  width: 70px;
   margin-left: calc((100% - 60px)/2);
   margin-top: 50px;
+  margin-bottom: 50px;
   border-radius: 50%;
   border: 2px solid white;
 }

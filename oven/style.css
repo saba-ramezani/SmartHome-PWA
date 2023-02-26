@@ -102,7 +102,7 @@ body, html {
   height: fit-content;
   white-space: nowrap;
   top: -13px;
-  left: calc((100% - 60px)/2);
+  left: calc((100% - 40px)/2);
 }
 
 
@@ -346,12 +346,38 @@ div.scrollmenu a:hover {
 
 
 .zz {
-  height: 50px;
-  width: 50px;
+  height: 70px;
+  width: 70px;
   margin-left: calc((100% - 60px)/2);
   margin-top: 50px;
+  margin-bottom: 50px;
   border-radius: 50%;
   border: 2px solid white;
+}
+
+
+
+.rr1{
+  width: 190px;
+  height: auto;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  margin-left: calc((100% - 190px)/2);
+  white-space: nowrap;
+}
+
+.rr2{
+  width: 70px;
+  height: auto;
+  font-size: 1.5rem;
+  margin-left: calc((100% - 70px)/2);
+  white-space: nowrap;
+}
+
+
+.zz:hover {
+  border: 1px solid rgb(255, 255, 255);
 }
 
 
