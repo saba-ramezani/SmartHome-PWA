@@ -139,10 +139,9 @@ body, html {
 }
 
 
-@media only screen and (max-width: 1000px) {
-  .sure {
-    padding: 50px;
-  }
+.sure {
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 
