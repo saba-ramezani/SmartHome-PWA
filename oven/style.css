@@ -346,6 +346,7 @@ div.scrollmenu a:hover {
   margin-left: calc((100% - 50px)/2);
   border-radius: 50%;
   border: 2px solid white;
+  box-shadow: 7px 6px 28px 1px rgba(0,0,0,0.24);
 }
 
 
@@ -354,7 +355,19 @@ div.scrollmenu a:hover {
   width: 50px;
   margin-top: calc((100% - 100px)/2);
   margin-left: calc((100% - 50px)/2);
+  border: 1px solid rgb(255, 255, 255);
 }
+
+
+.gg1:active {
+  box-shadow: 7px 6px 28px 1px rgba(0,0,0,0.24);
+  transform: translateY(4px);
+}
+
+.gg1:hover {
+  border: 1px solid rgb(255, 255, 255);
+}
+
 
 
 .gg2 {
@@ -362,8 +375,17 @@ div.scrollmenu a:hover {
   width: 50px;
   margin-top: calc((100% - 100px)/2);
   margin-left: calc((100% - 50px)/2);
+  border: 1px solid rgb(255, 255, 255);
 }
 
+.gg2:active {
+  box-shadow: 7px 6px 28px 1px rgba(0,0,0,0.24);
+  transform: translateY(4px);
+}
+
+.gg2:hover {
+  border: 1px solid rgb(255, 255, 255);
+}
 
 
 
@@ -382,6 +404,7 @@ div.scrollmenu a:hover {
   margin-bottom: 50px;
   border-radius: 50%;
   border: 2px solid white;
+  border: 1px solid rgb(255, 255, 255);
 }
 
 
@@ -405,14 +428,26 @@ div.scrollmenu a:hover {
 }
 
 
+.zz:active {
+  box-shadow: 7px 6px 28px 1px rgba(0,0,0,0.24);
+  transform: translateY(4px);
+}
+
 .zz:hover {
   border: 1px solid rgb(255, 255, 255);
 }
 
 
+.gg:active {
+  box-shadow: 7px 6px 28px 1px rgba(0,0,0,0.24);
+  transform: translateY(4px);
+}
+
 .gg:hover {
   border: 1px solid rgb(255, 255, 255);
 }
+
+
 
 .homepage {
   background-color: rgb(255, 38, 0);

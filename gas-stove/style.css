@@ -344,9 +344,26 @@ div.scrollmenu a:hover {
 }
 
 
+.zz:active {
+  box-shadow: 7px 6px 28px 1px rgba(0,0,0,0.24);
+  transform: translateY(4px);
+}
+
+.zz:hover {
+  border: 1px solid rgb(255, 255, 255);
+}
+
+
+
+.gg:active {
+  box-shadow: 7px 6px 28px 1px rgba(0,0,0,0.24);
+  transform: translateY(4px);
+}
+
 .gg:hover {
   border: 1px solid rgb(255, 255, 255);
 }
+
 
 .homepage {
   background-color: rgb(255, 38, 0);
