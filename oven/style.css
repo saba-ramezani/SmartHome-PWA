@@ -325,16 +325,16 @@ div.scrollmenu a:hover {
   visibility: visible;
   width: 90%;
   margin-left: 5%;
-  height: 100px;
+  height: 50px;
   background-color: rgb(24, 24, 24);
-  margin-bottom: 50px;
+  margin-bottom: 80px;
 }
 
 .saba1 {
   visibility: visible;
   width: 90%;
   margin-left: 5%;
-  height: 100px;
+  height: 50px;
   background-color: rgb(24, 24, 24);
   margin-bottom: 100px;
 }
@@ -343,7 +343,7 @@ div.scrollmenu a:hover {
   height: 50px;
   width: 50px;
   margin-top: calc((100% - 100px)/2);
-  margin-left: calc((100% - 60px)/2);
+  margin-left: calc((100% - 50px)/2);
   border-radius: 50%;
   border: 2px solid white;
 }
@@ -358,10 +358,10 @@ div.scrollmenu a:hover {
 
 
 .gg2 {
-  height: 70px;
-  width: 70px;
+  height: 50px;
+  width: 50px;
   margin-top: calc((100% - 100px)/2);
-  margin-left: calc((100% - 70px)/2);
+  margin-left: calc((100% - 50px)/2);
 }
 
 
