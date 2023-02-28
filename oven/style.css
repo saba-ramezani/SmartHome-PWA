@@ -323,17 +323,17 @@ div.scrollmenu a:hover {
 
 .saba {
   visibility: visible;
-  width: 80%;
-  margin-left: 10%;
+  width: 90%;
+  margin-left: 5%;
   height: 100px;
   background-color: rgb(24, 24, 24);
-  margin-bottom: 80px;
+  margin-bottom: 50px;
 }
 
 .saba1 {
   visibility: visible;
-  width: 80%;
-  margin-left: 10%;
+  width: 90%;
+  margin-left: 5%;
   height: 100px;
   background-color: rgb(24, 24, 24);
   margin-bottom: 100px;
