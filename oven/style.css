@@ -323,9 +323,20 @@ div.scrollmenu a:hover {
 
 .saba {
   visibility: visible;
-  height: 70px;
+  width: 80%;
+  margin-left: 10%;
+  height: 100px;
   background-color: rgb(24, 24, 24);
-  padding-bottom: 100px;
+  margin-bottom: 80px;
+}
+
+.saba1 {
+  visibility: visible;
+  width: 80%;
+  margin-left: 10%;
+  height: 100px;
+  background-color: rgb(24, 24, 24);
+  margin-bottom: 100px;
 }
 
 .gg {
@@ -338,6 +349,24 @@ div.scrollmenu a:hover {
 }
 
 
+.gg1 {
+  height: 50px;
+  width: 50px;
+  margin-top: calc((100% - 100px)/2);
+  margin-left: calc((100% - 50px)/2);
+}
+
+
+.gg2 {
+  height: 70px;
+  width: 70px;
+  margin-top: calc((100% - 100px)/2);
+  margin-left: calc((100% - 70px)/2);
+}
+
+
+
+
 .xx {
   height: 30px;
   width: 30px;
@@ -348,7 +377,7 @@ div.scrollmenu a:hover {
 .zz {
   height: 70px;
   width: 70px;
-  margin-left: calc((100% - 60px)/2);
+  margin-left: calc((100% - 70px)/2);
   margin-top: 50px;
   margin-bottom: 50px;
   border-radius: 50%;
@@ -358,20 +387,20 @@ div.scrollmenu a:hover {
 
 
 .rr1{
-  width: 190px;
+  width: 100%;
   height: auto;
   margin-top: 40px;
   margin-bottom: 20px;
   font-size: 1.5rem;
-  margin-left: calc((100% - 190px)/2);
+  text-align: center;
   white-space: nowrap;
 }
 
 .rr2{
-  width: 70px;
+  width: 100%;
   height: auto;
   font-size: 1.5rem;
-  margin-left: calc((100% - 70px)/2);
+  text-align: center;
   white-space: nowrap;
 }
 

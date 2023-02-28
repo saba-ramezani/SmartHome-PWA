@@ -45,6 +45,11 @@ body, html {
   }
 
 
+  .data {
+    border: 5px solid black;
+  }
+
+
   .deviceNotFound {
     color: rgb(0, 0, 0);
     text-align: center;
@@ -116,48 +121,23 @@ body, html {
   background-color: rgb(24, 24, 24);
 }
 
-.stove-img {
-  display: grid;
-  grid-template-columns: 1fr;
+
+.gas-img {
   width: 50%;
   margin-left: 25%;
   height: auto;
-  background-color: rgb(24, 24, 24);
-}
-
-
-.gas-img1 {
   margin-top: 100px;
-  grid-row-start: 1;
-  grid-column-start: 1;
-  width: 80%;
-  margin-left: 10%;
-  height: auto;
-  margin-bottom: 70px;
+  margin-bottom: 30px;
   background-color: rgb(24, 24, 24);
-  z-index: 0;
-}
-
-
-.gas-img2 {
-  margin-top: 100px;
-  grid-row-start: 1;
-  grid-column-start: 1;
-  width: 80%;
-  margin-left: 10%;
-  height: auto;
-  margin-bottom: 70px;
-  background-color: rgb(24, 24, 24);
-  z-index: 0;
 }
 
 @media only screen and (max-width: 1000px) {
-  .stove-img {
+  .gas-img {
     width: 100%;
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: 0%;
   }
 }
+
 
 .back {
     position: fixed;
@@ -334,11 +314,10 @@ div.scrollmenu a:hover {
 
 
 .zz {
-  height: 70px;
-  width: 70px;
-  margin-left: calc((100% - 70px)/2);
+  height: 50px;
+  width: 50px;
+  margin-left: calc((100% - 60px)/2);
   margin-top: 50px;
-  margin-bottom: 50px;
   border-radius: 50%;
   border: 2px solid white;
 }
@@ -350,4 +329,11 @@ div.scrollmenu a:hover {
 
 .homepage {
   background-color: rgb(255, 38, 0);
+}
+
+
+.arrow {
+  width: 30px;
+  height: 30px;
+  margin-left: calc((50% - 20px));
 }
