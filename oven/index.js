@@ -57,7 +57,7 @@ function startDisconnect(){
 
 
 function publishMessage(keyName){
-    msg = "{\"optKey\":\"" + keyName + "\"}";
+    msg = "{\"optkey\":\"" + keyName + "\"}";
     Message = new Paho.MQTT.Message(msg);
     Message.destinationName = topic;
     client.send(Message);
